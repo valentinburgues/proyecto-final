@@ -10,7 +10,7 @@
     justify-content: space-around;
       li{
         margin: 20px;
-        border: 3px solid rgb(46, 179, 46) ;
+        border: 3px solid $color-general ;
         text-align: center;
         border-radius: 10px;
         transition: all 10px ;
@@ -29,10 +29,10 @@
     transition: 0.3s;
 }
 li p{
-    color: white;
+    color: $color-fuente;
 }
 .descripcion{
-    color: white;
+    color: $color-fuente;
     
     
 }
@@ -40,7 +40,7 @@ div h2 {
     text-align: center;
     margin-top: 10%;
     margin-bottom: 5%;
-    color: white;
+    color: $color-fuente;
     font-size: 25px;
   }
  

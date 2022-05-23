@@ -15,7 +15,7 @@
 }
 
 section h5 {
-    color: white;
+    color: $color-fuente;
     text-align: center;
     margin-top: 100px;
     font-size: 25px;
@@ -39,7 +39,7 @@ section h5 {
   }
   
   section ul li a .fa-brands {
-    color: rgb(167, 5, 167);
+    color: $color-iconos;
     transition: all 10px;
   }
   section ul li a .fa-brands .fa-brands:hover {

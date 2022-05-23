@@ -1,3 +1,4 @@
+
 .bienvenida{
     font-size: map-get($size, 1 );
     text-align: center;
@@ -5,13 +6,13 @@
     margin-top: 5%;
 }
 .tituloh4{
-    color: white;
+    color: $color-fuente;
     font-size: map-get($size, 1 );
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: map-get($size, 1 );
 }
 .como-comprar{
-    color: white;
+    color: $color-fuente;
     text-align: center;
     list-style: none;
     

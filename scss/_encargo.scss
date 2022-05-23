@@ -1,5 +1,5 @@
 .encargo-contenedor{
-    margin-top: 100px;
+    margin-top: map-get($size, 6 );
     width: 100%;
     height: 500px;
     background: #ADD100;  /* fallback for old browsers */
@@ -17,7 +17,7 @@ position: relative;
 }
 .texto-nosotros{
     display: flex;
-    height: 430;
+    height: 430px;
     width: 100%;
     align-items: center;
     justify-content: center;
